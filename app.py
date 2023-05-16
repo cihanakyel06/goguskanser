@@ -26,7 +26,7 @@ def predict():
       res_val = "Normal"
 
 
-  return render_template('index.html', prediction_text='Patient has {}'.format(res_val))
+  return render_template('index.html', prediction_text='Hasta {}'.format(res_val))
 
 if __name__ == "__main__":
   app.run()
